@@ -45,6 +45,7 @@ All variable names are changed so they are descriptive. Extra periods are remove
 
 
 Old Variable Name | Descriptive Variable Name
+------------------|--------------------------
 "tBodyAcc.mean...X" | "timebodyaccelerationmeanX"
 "tBodyAcc.mean...Y" | "timebodyaccelerationmeanY"
 "tBodyAcc.mean...Z" | "timebodyaccelerationmeanZ"
