@@ -1,10 +1,9 @@
 ## Clear Workspace
 remove(list=ls())
 
-## Set working directory
-#
-#setwd("./UCI HAR Dataset/")
+## Load required libraries
 library(dplyr)
+
 ## Read files
 xtest<-read.table("./test/X_test.txt")
 ytest<-read.table("./test/y_test.txt")
