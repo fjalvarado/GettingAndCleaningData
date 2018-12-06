@@ -70,3 +70,6 @@ cnames<-gsub("Mag","magnitude",cnames)
 cnames<-gsub("Freq","frequency",cnames)
 cnames<-gsub("\\.","",cnames)
 colnames(xmean)<-cnames
+
+## Output
+head(xmean)
