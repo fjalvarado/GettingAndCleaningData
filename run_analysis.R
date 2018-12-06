@@ -73,3 +73,4 @@ colnames(xmean)<-cnames
 
 ## Output
 head(xmean)
+write.table(xmean, "xmean.txt", row.names=FALSE)
